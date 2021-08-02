@@ -1,0 +1,127 @@
+Time : 14:15:09
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=name' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY name ASC LIMIT 10 OFFSET 0order=name
+
+Time : 14:15:09
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=name' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY name ASC LIMIT 10 OFFSET 0order=name
+
+Time : 14:15:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=name' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY name ASC LIMIT 10 OFFSET 0order=name
+
+Time : 14:15:04
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=name' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY name ASC LIMIT 10 OFFSET 0order=name
+
+Time : 14:14:49
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=name' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY name ASC LIMIT 10 OFFSET 0order=name
+
+Time : 14:14:34
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '=name' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY name ASC LIMIT 10 OFFSET 0order=name
+
+Time : 14:11:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?as=ASC ASC' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY email?as=ASC ASC
+
+Time : 14:05:05
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '?as=ASC ASC' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY email?as=ASC ASC
+
+Time : 13:41:59
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DSC' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY name DSC
+
+Time : 13:41:45
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'DSC' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE id !=0 ORDER BY name DSC
+
+Time : 13:34:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE  ORDER BY
+
+Time : 13:33:22
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE  ORDER BY
+
+Time : 13:22:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 13:22:57
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 13:22:56
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 13:22:42
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 13:22:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 13:22:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 13:22:24
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 13:22:23
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 13:21:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1
+Raw SQL : SELECT * FROM callbacks WHERE
+
+Time : 12:33:17
+SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Raw SQL : INSERT INTO `callbacks` (`name`,`email`,`mob`,`comment`) 
+			VALUES (:name,:email,:mob,:comment)
+
+Time : 12:32:59
+SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Raw SQL : INSERT INTO `callbacks` (`name`,`email`,`mob`,`comment`) 
+			VALUES (:name,:email,:mob,:comment)
+
+Time : 12:19:49
+SQLSTATE[42000]: Syntax error or access violation: 1582 Incorrect parameter count in the call to native function 'LENGTH'
+Raw SQL : SELECT LENGTH(name,email,mob,comment) FROM callbacks;
+
+Time : 12:19:16
+SQLSTATE[HY000]: General error: 1364 Field 'id' doesn't have a default value
+Raw SQL : INSERT INTO `callbacks` (`name`,`email`,`mob`,`comment`) 
+			VALUES (:name,:email,:mob,:comment)
+
+Time : 10:12:58
+SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'comment' at row 1
+Raw SQL : INSERT INTO `callbacks` (`name`,`email`,`mob`,`comment`) 
+			VALUES (:name,:email,:mob,:comment)
+
+Time : 10:12:12
+SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'comment' at row 1
+Raw SQL : INSERT INTO `callbacks` (`name`,`email`,`mob`,`comment`) 
+			VALUES (:name,:email,:mob,:comment)
+
+Time : 10:11:45
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'comment' in 'field list'
+Raw SQL : INSERT INTO `callbacks` (`name`,`email`,`mob`,`comment`) 
+			VALUES (:name,:email,:mob,:comment)
+
+Time : 10:11:24
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'csrf' in 'field list'
+Raw SQL : INSERT INTO `callbacks` (`csrf`) 
+			VALUES (:csrf)
+
+Time : 10:10:27
+SQLSTATE[42S22]: Column not found: 1054 Unknown column 'csrf' in 'field list'
+Raw SQL : INSERT INTO `callbacks` (`csrf`,`name`,`email`,`mob`,`comment`) 
+			VALUES (:csrf,:name,:email,:mob,:comment)

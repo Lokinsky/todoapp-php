@@ -1,0 +1,82 @@
+Time : 22:04:43
+SQLSTATE[42000]: Syntax error or access violation: 1065 Query was empty
+
+Time : 14:55:20
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1777777777777777777777' at line 4
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` 
+            FROM tasks 
+            ORDER BY status ASC 
+            LIMIT 3 OFFSET 1777777777777777777777
+
+Time : 13:33:39
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1777777777777777777775' at line 4
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` 
+            FROM tasks 
+            ORDER BY status ASC 
+            LIMIT 3 OFFSET 1777777777777777777775
+
+Time : 13:27:47
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1777777777777777777775' at line 4
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` 
+            FROM tasks 
+            ORDER BY status ASC 
+            LIMIT 3 OFFSET 1777777777777777777775
+
+Time : 13:26:35
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1777777777777777777775' at line 4
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` 
+            FROM tasks 
+            ORDER BY status ASC 
+            LIMIT 3 OFFSET 1777777777777777777775
+
+Time : 13:26:28
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1777777777777777777775' at line 4
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` 
+            FROM tasks 
+            ORDER BY status ASC 
+            LIMIT 3 OFFSET 1777777777777777777775
+
+Time : 13:23:41
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1777777777777777777777 OFFSET 3' at line 4
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` 
+            FROM tasks 
+            ORDER BY status ASC 
+            LIMIT 1777777777777777777777 OFFSET 3
+
+Time : 13:23:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1777777777777777777777 OFFSET 3' at line 4
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` 
+            FROM tasks 
+            ORDER BY status ASC 
+            LIMIT 1777777777777777777777 OFFSET 3
+
+Time : 13:23:13
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1777777777777777777775 OFFSET 3' at line 4
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` 
+            FROM tasks 
+            ORDER BY status ASC 
+            LIMIT 1777777777777777777775 OFFSET 3
+
+Time : 13:08:27
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rows FROM tasks' at line 1
+Raw SQL : SELECT COUNT(`id`) as rows FROM tasks
+
+Time : 13:07:40
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rows FROM tasks' at line 1
+Raw SQL : SELECT COUNT(`id`) as rows FROM tasks
+
+Time : 13:07:11
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'rows FROM tasks' at line 1
+Raw SQL : SELECT COUNT(`id`) as rows FROM tasks
+
+Time : 09:56:46
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY status ASC' at line 1
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` FROM tasks LIMIT 3 OFFSET 0 ORDER BY status ASC
+
+Time : 09:56:17
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY status' at line 1
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` FROM tasks LIMIT 3 OFFSET 0 ORDER BY status
+
+Time : 09:55:38
+SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY status' at line 1
+Raw SQL : SELECT `id`, `user_name`, `email`, `text`, `status` FROM tasks LIMIT 3 OFFSET 0 ORDER BY status
